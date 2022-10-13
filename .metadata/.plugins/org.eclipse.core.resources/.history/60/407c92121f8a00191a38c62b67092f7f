@@ -1,0 +1,13 @@
+package com.ak.comparable;
+
+import java.util.ArrayList;
+
+public class TestSort {
+
+	public static void main(String[] args) {
+		ArrayList<Student> student=new ArrayList();
+		student.add(101,"ashish",21);
+		
+		
+	}
+}

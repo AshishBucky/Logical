@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;separatenonzero&apos; to &apos;junitbasic/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Logical-Practice&apos;&#x0D;&#x0A;- Destination element: &apos;junitbasic/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Logical-Practice/src/separatenonzero&apos;" description="Copy package" destination="=junitbasic/src\/main\/java" element1="/src&lt;separatenonzero" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1583988592606" version="1.0"/>
+</session>

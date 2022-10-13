@@ -1,0 +1,80 @@
+Functional interface 
+========================
+Interface which contains only one abstract method is called Functional Interface.Along with one one abstract method , 
+it can have default or static method.
+
+Predicate
+
+Function
+
+Consumer
+
+Supplier
+
+
+Predicate:
+==========
+@FunctionalInterface
+public interface Predicate<T>{
+	boolean test(T obj);
+}
+
+whenever there is a requirement of a method which takes a single input and always return boolean value
+then we should go for Prediacate Functional Interface.
+
+To chechk a given no is even or odd
+-------------------------------------
+Predicate<Integer> p=(n)->n%2==0;		//p points to annonymous method which is a implementation of test method
+System.out.println(p.test(10));------>true
+System.out.println(p.test(5));------>false
+
+Function :
+==========
+@FunctionalInterface
+public interface Function<T,R>{
+	R apply(T obj);		//return type:R
+}
+when ever there is a requirement of a method which takes a single input of any type and returns any type of values,return type
+need not to be boolean then we should go for Function Functional interface.
+
+Function<String,Integer> f=(String str)->str.length();
+Function<String,Integer> f=(str)->str.length();
+Function<String,Integer> f=str->str.length();
+Function<String,Integer> f=(str)->{return str.length();}
+
+System.out.println(f.apply(ashish));---->6
+
+Function<Employee,Integer> f2=(emp)->emp.empId;
+System.out.println(f2.apply(new Employee(101,"ashish")));----->101
+
+Consumer :
+========
+@FunctionalInterface
+public interface Consumer<T>{
+	accept(T obj);		
+}
+
+when ever there is a requirement of a method whick will take any obj as input, but never returns anythings.
+
+Consumer<Customer> c=(customer)->{ System.out.ptintln(custome.cId);
+				   System.out.ptintln(custome.cId);
+};
+
+Supplier :
+===========
+@FunctionalInterface
+public interface Suppplier<R>{
+	R get();
+}
+It takes nothing but returns something.
+
+Supplier<String> s=()->{
+	return Math.Random();
+};
+System.out.println(s.get());----->0.21458467945545
+
+
+
+
+
+

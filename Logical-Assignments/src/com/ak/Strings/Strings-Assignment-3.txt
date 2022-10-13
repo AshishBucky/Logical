@@ -1,0 +1,84 @@
+1) Write a java program to reverse a String without using reverse() method.
+
+Input : tekleads
+Output: sdaelket
+
+2) Write a java program to reverse each word of a String
+
+input : java programming language
+
+output : avaj gnimmargorp egaugnal
+
+3) Write a java program to find occurance of duplicate character in given String. 
+   If there is no duplicate character in given String it should print 'No Duplicates Found'.
+
+input : java 
+output : a-2
+Explanation : a-occured 2 times
+
+input : madam
+output: m-2 & a-2
+Explanation : m occured two times & a occured 2 times
+
+4) Write a java program to find first non-repeated character from given String
+
+input : simplest
+ouput : i
+
+5) Write a java program to remove all special characters from given String
+
+input : $ja!va$&st%ar
+output : javastar
+
+6) Write a java program to find two strings are anagrams to each other or not.
+
+Anagram : Two words are said to be Anagrams of each other if they share the same set of letters to form the respective words.
+
+input1 : silent 
+input2 : listen
+
+output : Given Strings Are Anagrams
+
+7) write a java program that can check given string has matching pair of parentheses or not.
+
+Ex : () has matching parenthesis, but (() doesn’t
+
+Input : [()]{}{[()()]()}
+Output : Matching
+
+Input: [(])
+Output: Not Matching
+
+8) Write a java program to read a string and a substring from user. 
+Then write the logic to print the number of times that the substring occurs in the given string. 
+
+Note: String traversal will take place from left to right, not 
+from right to left.
+
+Input String : ABCDCDC
+Input Sub-String : CDC
+Output : 2  
+Explantation : CDC occured twice in given string
+
+9) Write a java program to swap cases of characters in given string (Convert lowercase character to uppercase character and vise versa)
+
+input : Www.TekLeads.com
+output : wWW.tEKlEADS.COM
+
+10) Write a java program to read String s and width w. Then implement logic to wrap String text into paragraph of width w.
+
+input : ABCDEFGHIJKLIMNOQRSTUVWXYZ
+width : 4
+
+Output : 
+ABCD
+EFGH
+IJKL
+IMNO
+QRST
+UVWX
+YZ
+
+Explanation : As width is 4, paragraph aligned with 4 characters
+
+

@@ -1,0 +1,10 @@
+package com.ak.comparable;
+
+public class Student implements Comparable<Student> {
+
+	int sno;
+	String name;
+	int age;
+	
+	
+}

@@ -1,0 +1,27 @@
+package com.ak.arrays;
+
+import java.util.Arrays;
+
+public class TwoSum {
+
+	public static void main(String[] args) {
+		int[] numbers= {10,20,-5,15,5};
+		findTwoSum(numbers, 30);
+		findTwoSum(numbers, 15);
+		findTwoSum(numbers, 35);
+		findTwoSum(numbers, 0);
+	}
+	public static void findTwoSum(int[] arr,int sum) {
+		int[] result= new int[2];
+		int k=0;
+		for(int i=0;i<arr.length;i++) {
+			for(int j=0;j<arr.length;j++) {
+				if(arr[i]+arr[j]==sum) {
+					result[k]=j;
+					result[k+1]=i;
+				}
+			}
+		}
+		System.out.println(Arrays.toString(result));
+	}
+}

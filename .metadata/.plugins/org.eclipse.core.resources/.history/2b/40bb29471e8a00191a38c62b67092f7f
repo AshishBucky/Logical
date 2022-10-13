@@ -1,0 +1,5 @@
+package com.ak.comparable;
+
+public class Student implements Comparable<T> {
+
+}
